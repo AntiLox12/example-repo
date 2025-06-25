@@ -1,6 +1,3 @@
-import { EventsSDK } from "github.com/octarine-public/wrapper/index"
-
-console.log("Hello world!")
-EventsSDK.on("GameStarted", () => {
-	console.log("Hello world!")
-})
+console.log("--- OCTARINE SCRIPT TEST ---");
+console.log("If you see this, the script is loading.");
+console.log("Timestamp:", new Date().toLocaleTimeString());
